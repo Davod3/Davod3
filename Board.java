@@ -19,6 +19,7 @@ public class Board{
   public Board(int dimension){
 	   this.dimension = dimension;
      this.board = new Piece[dimension][dimension];
+     System.out.println("yeet");
   }
 
   /**
